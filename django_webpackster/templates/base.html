@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>This is Hello World app!</title>
+  {% load staticfiles %}
+  </head>
+  <body>
+    <div id="app"></div>
+    <h1>Welcome to React + Django</h1>
+    {% block content %}
+    {% endblock %}
+  </body>
+
+  <script src="{% static 'bundle.js' %}"></script>
+</html>
